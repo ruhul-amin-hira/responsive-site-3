@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.no-padding{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    padding: 25px 0 0 85px;
+
+    
+}
+.header ul {
+    clear: both;
+    float: right;
+}
+.header ul li{
+    list-style: none;
+    text-transform: uppercase;
+    display: inline;
+    padding-right:50px;
+
+}
+
+.header ul li a{
+     color: white;
+    font-weight: 600;
+}
+
+.header ul li a:hover{
+      text-decoration: none;
+    color:deepskyblue;
+    cursor: pointer;
+}
+.menu{
+    padding: 40px 90px 0 0;
+}
+.download{
+    text-align: center;
+}
+.download h1{
+    text-transform: uppercase;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 200px 0 45px;
+    color: white;
+    font-weight: 600;
+    line-height: 50px;
+}
+.link{
+    padding: 10px 35px;
+    text-transform: uppercase;
+    font-size: 17px;
+    background-color: #39c9da;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 700;
+    
+}
+
+.link:hover{
+    text-decoration: none;
+    background-color: white;
+    color: #39c9da;
+}
+.header{
+    background: url("top_bg.jpg") no-repeat center;
+   background-size: cover;
+    padding-bottom: 130px;
+}
+/**********************************************
+about section
+*********************************************/
+.about-top h4,
+.top-portfolio h4,
+.service-top h4,
+.contact-top h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+.about-top p,
+.top-portfolio p,
+.service-top p,
+.contact-top p{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    color: #757474;
+
+}
+
+.about-top,
+.top-portfolio,
+.service-top,
+.contact-top{
+    padding-bottom: 30px;
+}
+.about{
+    padding: 40px 0 100px 0 ;
+}
+.car{
+    padding: 120px 0 0 ;
+}
+.about-right h6{
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    
+}
+.about-right p{
+    padding: 10px 0;
+    color: #757474;
+}
+.underline{
+    padding-bottom: 15px;
+}
+.second-para{
+    padding-bottom: 40px !important;
+}
+.about-right{
+    padding-left: 15px;
+}
+
+
+.portfolio{
+    background-color: #f4f4f4;
+    padding: 30px 0;
+    border-top: 1px solid #e2e2e2;
+}
+
+
+.image-sec p{
+    text-transform: uppercase;
+    font-weight: 600;
+    float: left;
+    padding: 12px 10px 10px 10px;
+    
+}
+.image-footer{
+    float: right;
+    padding: 15px 10px 10px 0;
+    font-size: 11px;
+    font-style: italic;
+    
+}
+.images{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.image-right{
+    padding: 0 25px 25px 0;
+}
+.test{
+    width: 100%;
+    height: 45px;
+    background-color:white;
+}
+#link-read{
+    color: white;
+    position: absolute;
+    top: 40%;
+    min-width: 35%;
+    left: 30%;
+    font-weight: 600;
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px 15px;
+}
+.services{
+    padding: 40px 0;
+    background-color: #fafafa;
+    border-top: 1px solid #e2e2e2;
+}
+
+.service-top p{
+    padding-bottom: 35px;
+    text-align: center;
+   
+}
+
+.mini-service h4{
+    
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 0 0 0;
+    text-align: center;
+}
+.service-image{
+    margin: 0 auto;
+}
+hr{
+    margin: 0 auto;
+    padding: 0;
+    width: 30%;
+    border-bottom:1px solid black;
+    color: black;
+   
+ }
+
+.mini-service p{
+    text-align: center;
+    padding: 30px 0;
+    color: black;
+    
+    
+}
+
+.mini-service a{
+   
+    padding: 5px 15px;
+    background-color: #4b4a4b;
+    color: white;
+    
+}
+.read-more{
+   
+    padding: 5px 0 0 0 !important;
+    
+    
+}
+
+.mini-service{
+    padding: 20px 15px;
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+   
+}
+#brash {
+    background-color: #39c9da;
+}
+#brash h4,
+#brash p{
+    color: white ;
+}
+#brush-read a{
+    color: black;
+    background-color: white;
+}
+
+.contact{
+    padding: 40px 0;
+    background-color: #f4f4f4;
+    border-top: 1px solid #e2e2e2;
+}
+.contact-top p{
+    padding-bottom: 40px;
+}
+.contact-left h5{
+    font-weight: 700;
+}
+.info-hr{
+    max-width:20%;
+    padding-left: 2px;
+}
+.contact-left p{
+    text-align: left;
+    padding: 20px 0;
+    margin: 0;
+    font-size: 13px;
+}
+.contact-left{
+    padding: 10px;
+}
+.contact-field{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 25px;
+    border: 1px solid #e2e2e2;
+    font-size: 13px;
+}
+.contact-right{
+    padding-top: 10px;
+}
+.contact-right a{
+    float: right;
+}
+#submit{
+    padding-right: 15px;
+}
+.footer p{
+    color: white;
+    padding: 17px 0 10px 0;
+    text-align: center;
+}
+.footer-sec{
+    background-color: #39c9da;
+}
+
+.mini-service a:hover {
+    background-color:#39C9DA;
+    color: white;
+    text-decoration: none;
+}
+#brush-read a:hover {
+    color: #76ede9;
+    background-color:#0d6658;
+    text-decoration: none;
+    border: 1px solid black;
+}
+/***************************************************
+Media query
+****************************************************/
+@media only screen and (max-width:1170px){
+    .menu {
+    padding: 40px 25px 0;
+    }
+}
+
+@media only screen and (max-width:668px){
+    .header ul li {
+        padding-right: 20px;
+    }
+    
+     .logo {
+    margin: 0 auto;
+    padding: 20px 0;
+   }
+}
+
+@media only screen and (max-width:505px){
+    
+   
+    .menu{
+        padding: 0;
+        width: 120px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .header ul li {
+        padding:10px 10px; 
+        display: list-item;
+        
+    }
+    .download h1 {
+    
+      padding: 25px 0 45px;
+   
+  }
+    .header{
+        padding-bottom: 50px;
+    }
+    
+    .car {
+    padding: 35px 0 0;
+}
+    
+    .about {
+    padding: 40px 0 40px 0;
+}
+    
+    .portfolio {
+        padding: 5px 0;
+    
+  }
+    .services {
+    padding: 15px 0;
+    }
+    
+    .about-top, .top-portfolio, .service-top, .contact-top {
+    padding-bottom: 10px;
+  }
+    .contact {
+    padding: 15px 0;
+    }
+    .contact-top p {
+    padding-bottom: 15px;
+}
+    
+    .contact-field {
+    margin-bottom: 15px;
+
+ }
+}
+@media only screen and (max-width:360px){
+    
+    .download h1 {
+    font-size: 20px;
+    line-height: 25px;
+    padding: 10px 0 31px;
+}
+    .about {
+    padding: 15px 0 40px 0;
+}
+    .second-para {
+    padding-bottom: 20px !important;
+}
