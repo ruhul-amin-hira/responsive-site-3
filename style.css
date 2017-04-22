@@ -180,6 +180,13 @@ about section
     text-align: center;
     padding: 10px 15px;
 }
+
+#link-read:hover{
+    color: #39C9DA;
+    text-decoration: none;
+     border: 1px solid #39C9DA ;
+}
+
 .services{
     padding: 40px 0;
     background-color: #fafafa;
@@ -273,7 +280,7 @@ hr{
     font-size: 13px;
 }
 .contact-left{
-    padding: 10px;
+    padding: 10px 10px 10px 20px;
 }
 .contact-field{
     width: 100%;
@@ -318,6 +325,15 @@ Media query
     .menu {
     padding: 40px 25px 0;
     }
+}
+
+@media only screen and (max-width:768px){
+    
+    .image-right{
+    padding: 0 25px 25px 25px;
+    }
+    
+    
 }
 
 @media only screen and (max-width:668px){
