@@ -390,10 +390,10 @@ Media query
     padding-bottom: 10px;
   }
     .contact {
-    padding: 15px 0;
+    padding: 15px 15px 15px 10px;
     }
     .contact-top p {
-    padding-bottom: 15px;
+    padding-bottom:15px;
 }
     
     .contact-field {
